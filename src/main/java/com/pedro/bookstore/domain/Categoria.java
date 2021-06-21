@@ -4,15 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Categoria {
-	
+
 	private Integer id;
 	private String nome;
 	private String descricao;
-	
-	private List<Livro> livros= new ArrayList<>();
-	
-	public Categoria () {
-		
+
+	private List<Livro> livros = new ArrayList<>();
+
+	public Categoria() {
+
 	}
 
 	public Categoria(Integer id, String nome, String descricao) {
@@ -78,7 +78,4 @@ public class Categoria {
 			return false;
 		return true;
 	}
-	
-	
-
 }
